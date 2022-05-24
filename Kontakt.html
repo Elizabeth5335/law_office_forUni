@@ -10,20 +10,21 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
   <link rel="stylesheet" href="lib/w3.css">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.validate.js"></script>
 </head>
 
 
 <body>
 
-<nav class="w3-sidenav w3-collapse w3-card-24 w3-animate-left" style="width:250px; padding-top: 40px; text-align: center; background: #F6F6F6;">s
+<nav class="w3-sidenav w3-collapse w3-card-24 w3-animate-left" style="width:250px; padding-top: 40px; text-align: center; background: #F6F6F6;">
   <a href="javascript:void(0)" onclick="w3_close()" 
   class="w3-closenav w3-large w3-hide-large">Close &times;</a>
-  <img src="img/logo.png" alt="" style="width: 100%; margin-bottom: 15px; margin-top: 30px">
-  <a href="index.html" class="my-2">O mnie</a>   
-  <a href="Rodzaje_prowadzonych_spraw.html" class="my-2">Rodzaje prowadzonych spraw</a>   
-  <a href="Specjaliści_współpracujący_z_Kancelarią.html" class="my-2">Specjaliści współpracujący z Kancelarią</a>   
-  <a href="Zaufali_nam.html" class="my-2">Zaufali nam</a>   
-  <a href="Kontakt.html" class="my-2" style="background: #e8e4df;">Kontakt</a>   
+  <img src="img/logo.png" alt="" style="width: 80%; margin-bottom: 15px; margin-top: 30px; margin-left:20px">
+  <a href="index.html" class="my-2">About us</a>   
+  <a href="Specjaliści_współpracujący_z_Kancelarią.html" class="my-2">Specialists cooperating with the Law office</a>   
+  <a href="Zaufali_nam.html" class="my-2">Trusted us</a>   
+  <a href="Kontakt.html" class="my-2" style="background: #e8e4df;">Contact</a>   
 </nav>
 
 <div class="w3-main" style="margin-left:250px">
@@ -33,8 +34,8 @@
     <span class="w3-opennav w3-xlarge w3-hide-large" onclick="w3_open()" style="color: white; padding-left: 30px;">&#9776;</span>
     <div id="hero" class="animate__animated animate__fadeIn w3-row" style="padding: 50px;">
       <div class="w3-col" style="width:80%">
-        <h1 style="color: #C68B23; font-family: initial; font-weight: bold;">Adwokat Karolina Walent-Marszałek<br>Kancelaria Adwokacka</h1>
-        <h4 style="color: #C68B23; font-family: initial;">tel. <a href="tel:+48534160560"><b>(+48)534-160-560</b></a></h4>  
+        <h1 style="color: #C68B23; font-family: initial; font-weight: bold;">Advocate Joanna Watson<br>Advocate Office</h1>
+        <h4 style="color: #C68B23; font-family: initial;">tel. <a href="tel:+48695178074"><b>(+48)695-178-074</b></a></h4>  
       </div>
       <div class="w3-rest"><img src="img/logo1.svg" style="max-height: 150px; padding-bottom: 15px;"></div>
     </div>
@@ -42,39 +43,150 @@
 </header>
 
 
-<div class="w3-row content" >
-  <div class="w3-container">
-    <div class="m-3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus fermentum dolor, vitae cursus nibh fringilla vel. Vivamus luctus in diam non tristique. Pellentesque a sem a dolor sagittis blandit eget non felis. Quisque varius vestibulum tortor, ut pulvinar leo ullamcorper nec. Etiam condimentum consequat mauris, ut consequat turpis maximus eget. Nam dui lorem, rhoncus ut sagittis at, aliquam id arcu. Aliquam at mi metus. Aliquam erat volutpat. Curabitur ornare, mauris non sollicitudin ultricies, arcu metus blandit leo, ut dignissim ligula nisi at tellus. Vivamus sed dui eget dui ultrices rutrum. Integer dictum lacus vitae tellus tristique auctor. Suspendisse sit amet dolor lacus. Curabitur quam eros, hendrerit vel faucibus ut, sagittis et magna.<br><br>
+<div class="w3-row content mt-4" style="margin-left:30px">
+  <div class="w3-container w3-half"style="background: #F1F1F1F1; color: black;">
+    <div class="m-5"><h1 class="abstract" style="color: #C68B23;">Advocate OfficeAdvocate Joanna Watson</h1><p style="max-width:500px;">tel. <a href="tel:+48695178074" style="text-decoration: none;">(+48)695-178-074</a>
+      <br>mail: <a href="mail:elizabeth5335west@gmail.com" style="text-decoration: none;">mymail@gmail.com</a>
+      <br>ul. Ćmielowska 129, 03-127 Warszawa<br>NIP: 656-18-48-5453<br>
+      <br>Opening hours:<br>Monday - Friday: 10: 00-18: 00
+    </p>  
 
-</p></div>
+    </div>
   </div>
-  <div class="w3-container">
-    <!--<img class="hero-image mb-4" src="img/Karolina.jpg" alt="Karolina Marszalek">-->
+  <div class="w3-container w3-half">
+    <img class="hero-image mb-4" src="img/kancelaria.jpg" alt="Kancelaria">
   </div>
 </div>
 <div class="w3-container w3-row">
-<div class="map-responsive w3-twothird" >
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2469.773128402559!2d19.454585!3d51.755472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34d773a6000d%3A0x2b7ac71ae0c0630e!2zS3B0LiBGcmFuY2lzemthIMW7d2lya2kgMjIvNHUsIDkwLTUyOCDFgcOzZMW6LCDQn9C-0LvRjNGI0LA!5e0!3m2!1sru!2sus!4v1652269276940!5m2!1sru!2sus" width="600" height="450" style="sborder:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="map-responsive w3-half" >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.9176903795683!2d20.94870095079521!3d52.31749605887085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ec9bd09430f39%3A0xb655fcdef00de29b!2s%C4%86mielowska%20129%2C%2003-127%20Warszawa!5e0!3m2!1sru!2spl!4v1653382330367!5m2!1sru!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="w3-container w3-half">
+    <form id = "contact_form" action = "" autocomplete="on" style="background: #013634; color: white;">
+      <fieldset>
+        <legend><h1 class="abstract" style="color: #C68B23; text-align:center;">Contact form</h1></legend>
+        <p>
+          <div class="w3-half">
+            <label for="name" id="name_label">Name *</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" value="" class="text-input" minlength="2"  style="width:95%; color:#013634">
+            <label class="error" for="name" id="name_error">This field is required.</label>
+          </div>
+          <div class="w3-half">
+            <label label for="email" id="email_label">E-mail *</label>
+            <input type="text" name="email" id="email" placeholder="some@some.some" value="" class="text-input" style="width:95% ; color:#013634">
+            <label class="error" for="email" id="email_error">This field is required.</label>
+            <label class="error" for="email" id="wrong_email_error">This email is wrong!</label>
+          </div>
+        </p>
+        <p>
+          <label for="phone" id="phone_label" style="text-align: left; margin-top: 30px">Phone *</label>
+          <input type="text" name="phone" id="phone" placeholder="+48(000)000-00-00" class="text-input" style="width:97.5% ; color:#013634">
+          <label class="error" for="phone" id="phone_error">This field is required.</label>
+          <label class="error" for="phone" id="wrong_phone_error">Enter the correct phone number</label>
+        </p>
+        <p>
+          <label for="ccomment">Message</label>
+          <textarea id="ccomment" placeholder="Enter your message here" name="comment" rows=4 style="width:97.5% ; color:#013634"></textarea> 
+        </p>
+        <p style="text-align: center;">
+        <input type="submit" name="submit" class="button" id="submit_btn" value="Send" style="border-radius: 45%; background: #C68B23; border-width: 0; padding: 5px; padding-left: 20px; padding-right: 20px; color: #013634;"/>
+        </p>
+      </fieldset>
+  </div>
+
 </div>
-<div class="w3-container w3-third">
-  <form name="myForm" action="form.php" onsubmit="return validateForm()" method="post" required>
-  Name: <input type="text" name="fname">
-  <input type="submit" value="Submit">
-</form>
-</div>
+
+<div class = "social" style="text-align: center; margin-bottom:40px">
+  <a href=""><img src="img/facebook.png" style="width: 90px; margin-right: 30px;"></a>
+  <a href=""><img src="img/whatsapp.png" style="width: 70px; margin-right: 30px;"></a>
+  <a href=""><img src="img/linkedin.png" style="width: 80px;"></a>
 </div>
 
 <footer class="footer">
-  <section id="hero" class="animate__animated animate__fadeIn d-flex flex-column p-5" style="background: #F6F6F6; text-align:center;">
-    <p>© 2022 Adwokat Karolina Walent-Marszałek. <br>Kancelaria Adwokacka Adwokat Karolina Walent-Marszałek<br>
-      <a class="" href="https://www.linkedin.com/in/karolina-walent-marsza%C5%82ek-4451391b9/?originalSubdomain=pl" style="text-decoration: none;"> <b style="vertical-align: middle">Find me on</b> <img src="./img/li_logo.png" style="max-width: 80px;"> </a><br>
-      tel. <a href="tel:+48534160560"  style="text-decoration: none;"><b>(+48)534-160-560</b></a>
-      <br>mail: <a href="mail:adwokat.kwm@gmail.com" style="text-decoration: none;"><b>adwokat.kwm@gmail.com</b></a>
-      <br>ul. Żwirki 22 lok. 4U, 90-528 Łódź<br>NIP: 947-18-48-728<br>
+  <section id="hero" class="animate__animated animate__fadeIn d-flex flex-column p-5" style="background: #013634; text-align:center; color: #C68B23;">
+    <p>© 2022 Advocate Joanna Watson. <br>Advocate Office<br>
+      tel. <a href="tel:+48695178074" style="text-decoration: none;"><b>(+48)695-178-074</b></a>
+      <br>mail: <a href="mail:elizabeth5335west@gmail.com" style="text-decoration: none;"><b>mymail@gmail.com</b></a>
+      <br>ul. Ćmielowska 129, 03-127 Warszawa<br>NIP: 656-18-48-5453<br>
     </p>
 </footer>
 
 </div>
+<script>
+  var element = document.getElementById('phone');
+var maskOptions = {
+    mask: '+48(000)000-00-00',
+    lazy: false
+} 
+var mask = new IMask(element, maskOptions);
+</script>
+<script>
+  //$("contactForm").validate();
+  $(function() {
+    $('.error').hide();
+    $(".button").click(function() {
+      // validate and process form here
+      
+      $('.error').hide();
+      var name = $("input#name").val();
+      if (name == "") {
+        $("label#name_error").show();
+        $("input#name").focus();
+        return false;
+      }
+      var email = $("input#email").val();
+      if (!validateEmail(email)) {
+        $("label#wrong_email_error").show();
+        $("input#email").focus();
+        return false;
+      }
+      if (email=="") {
+        $("label#email_error").show();
+        $("input#email").focus();
+        return false;
+      }
+      validatePhone
+      var phone = $("input#phone").val();
+      if (!validatePhone(phone)) {
+        $("label#wrong_phone_error").show();
+        $("input#phone").focus();
+        return false;
+      }
+      if (phone == "") {
+        $("label#phone_error").show();
+        $("input#phone").focus();
+        return false;
+      }
+      var dataString = "Contact Form Submitted!\n Your answers:\nname: "+ name + '\nemail: ' + email + '\nphone: ' + phone;
+  alert (dataString);
+  return true;
+  $.ajax({
+    success: function() {
+      $('#contact_form').html("<div id='message'></div>");
+      $('#message').html("<h2>Contact Form Submitted!</h2>")
+      .hide()
+      .fadeIn(1500, function() {
+        $('#message').append("<img id='checkmark' src='images/check.png' />");
+      });
+    }
+  });
+  return false;
+    });
+  });
+  function validateEmail($email) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test( $email );
+  }
+  function validatePhone($phone) {
+        var phoneReg = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g;
+        $phone.length<=10||$phone.length>=10
+        return phoneReg.test( $phone );
+  }
+  function maskPhone() {
+      $("#phone").mask("+380(999) 999-99-99");
+    }
+ 
+</script>
 <script>
 function w3_open() {
     document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
